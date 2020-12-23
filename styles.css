@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: #0d476e;
+}
+
+h1 {
+  padding: 4rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.container {
+  max-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1ch;
+}
+
+.card {
+  max-width: 40%;
+}
+
+.card h3 {
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+.card2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  margin: 6rem;
+  background-color: #dae7ee;
+}
+
+.card2 img {
+  /* margin: 1rem; */
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card2 h3 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.card2 p {
+  margin: 1rem;
+}
+
+.card3 {
+  width: 30%;
+  /* display: flex; */
+  margin: 1rem;
+}
+
+.card3 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card3 .text {
+  margin-left: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card3 h3 {
+  padding-bottom: 1rem;
+}
+
+.card4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* justify-content: center; */
+  max-width: 40%;
+}
+
+.card4 img {
+  /* margin: 2rem; */
+  /* No va en amp */
+}
+
+.card4 h3 {
+  font-size: 1.5rem;
+}
+
+.card4 p {
+  line-height: 1.5;
+  margin: 2rem;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.cont {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1ch;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+section .container {
+  margin: 4rem;
+}
+
+nav {
+  height: 50px;
+  background-color: aquamarine;
+}
+
+.inicio {
+  background-color: white;
+}
+
+.inicio h2 {
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.especialistas {
+  background-color: #2a7a9b;
+  color: white;
+}
+
+.cuidado {
+  background-color: white;
+}
+
+.contacto {
+  background-color: #3cff00;
+}
+
+.shape {
+  position: relative;
+}
+
+.svg {
+  width: 80px;
+}
+
+.custom-shape-divider-bottom-1608626155 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1608626155 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 163px;
+}
+
+.custom-shape-divider-bottom-1608626155 .shape-fill {
+  fill: #2a7a9b;
+}
+
+.custom-shape-divider-bottom-1608626390 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1608626390 svg {
+  position: relative;
+  display: block;
+  width: calc(112% + 1.3px);
+  height: 107px;
+}
+
+.custom-shape-divider-bottom-1608626390 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2rem;
+  }
+  section .container {
+    margin: 2rem;
+  }
+  section .cuidado .cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .especialistas .container {
+    margin: 0 auto;
+  }
+  .card3 .text {
+    margin-left: 50%;
+  }
+  .card4 {
+    width: 100%;
+    max-width: 100%;
+  }
+  h1 {
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card2 {
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 4rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
